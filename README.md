@@ -1,37 +1,68 @@
-## Welcome to GitHub Pages
+# Cleanfolio
 
-You can use the [editor on GitHub](https://github.com/skyler-chan/skyler-chan.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+A clean and simple portfolio template built using React, if want a template built with HTML, CSS and JS then check out [Cleanfolio Minimal](https://github.com/rajshekhar26/cleanfolio-minimal).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Preview
 
-### Markdown
+[![Imgur](https://imgur.com/FwDMNEM.gif)](https://rajshekhar26.github.io/cleanfolio)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[See Live](https://rajshekhar26.github.io/cleanfolio)
 
-```markdown
-Syntax highlighted code block
+## Instructions
 
-# Header 1
-## Header 2
-### Header 3
+### Setup
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```shell
+git clone https://github.com/rajshekhar26/cleanfolio
+cd cleanfolio
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+If you use [nvm](https://github.com/nvm-sh/nvm) or [fnm](https://github.com/Schniz/fnm) (optional) -
 
-### Jekyll Themes
+```shell
+nvm install
+nvm use
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/skyler-chan/skyler-chan.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Or -
 
-### Support or Contact
+```shell
+fnm install
+fnm use
+```
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Install and run -
+
+```shell
+yarn
+yarn start
+```
+
+### How to use
+
+- Open `public/index.html` and replace -
+
+`<title>John Smith</title>` with `<title>Your Name</title>`.
+
+- Open `src/portfolio.js` and make changes.
+
+### Deployment
+
+- Go to `package.json` file and replace -
+
+`"homepage": "https://rajshekhar26.github.io/cleanfolio"`
+
+with `"homepage": "https://yourusername.github.io"`.
+
+- Push the changes.
+
+- Build and deploy -
+
+```shell
+yarn build
+yarn deploy
+```
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
