@@ -32,12 +32,12 @@ const projects = [
     livePreview: 'https://github.com/skyler-chan/3D-Orbit-Propagator-Using-NumPy-',
   },
   {
-    name: 'Coming Soon...',
+    name: 'MartianDAO',
     description:
-      '👀',
-    stack: ['👀', '👀', '👀'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      '',
+    stack: ['Notion', 'React'],
+    sourceCode: 'https://transparent-otter-86f.notion.site/MartianDAO-2264ef9ef23247e5a35d9f6d27428b7d?utm_source=notion',
+    livePreview: 'https://transparent-otter-86f.notion.site/MartianDAO-2264ef9ef23247e5a35d9f6d27428b7d?utm_source=notion',
   },
   {
     name: 'Coming Soon...',
