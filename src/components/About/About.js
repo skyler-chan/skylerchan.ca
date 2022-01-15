@@ -23,7 +23,7 @@ const About = () => {
           <a href={resume}>
             <span type='button' className='btn btn--outline'>
               Resume
-            </span>
+            </span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </a>
         )}
 

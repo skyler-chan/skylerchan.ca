@@ -24,9 +24,16 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    name: 'NASA Global Space School',
+    description:
+      'Canadian Delegate, led pitch to NASA engineer panel + space industry professionals',
+    stack: ['Leadership', 'Team Management'],
+    livePreview: 'https://www.linkedin.com/posts/skylerchan03_gss-1-star-int-ind-project-pitch-activity-6696599682979917824-UObr',
+  },
+  {
     name: '3D J2 Orbit Propagator - UTAT',
     description:
-      'Designed multiple iterations of 2D and 3D orbit propagators, including J2 Perturbation.',
+      'Designed a series of 2D, 3D, and 3D + J2 Perturbation orbit propagators using MatPlotLib and NumPy based on Keplerian elements',
     stack: ['Python', 'NumPy', 'MatPlotLib'],
     sourceCode: 'https://github.com/skyler-chan/3D-Orbit-Propagator-Using-NumPy-',
     livePreview: 'https://github.com/skyler-chan/3D-Orbit-Propagator-Using-NumPy-',
@@ -34,18 +41,28 @@ const projects = [
   {
     name: 'MartianDAO',
     description:
-      '',
+      'Creator and Core Team, decentralizing access to space exploration',
     stack: ['Notion', 'React'],
-    sourceCode: 'https://transparent-otter-86f.notion.site/MartianDAO-2264ef9ef23247e5a35d9f6d27428b7d?utm_source=notion',
     livePreview: 'https://transparent-otter-86f.notion.site/MartianDAO-2264ef9ef23247e5a35d9f6d27428b7d?utm_source=notion',
   },
   {
-    name: 'Coming Soon...',
+    name: 'Monument',
     description:
-      '👀',
-    stack: ['👀', '👀', '👀'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Community Manager/Operations/Growth',
+    stack: ['Discord'],
+    livePreview: 'https://monument.app/',
+  },
+  {
+    name: 'Vancouver Youth Parliament',
+    description:
+      "Premier ('21) & Attorney-General ('20)",
+    stack: ['Public Speaking', 'Leadership', 'Team Management'],
+    livePreview: 'https://bcyp.org/vyp',
+  },
+  {
+    name: 'Coming Soon 👀 ',
+    description:
+      "👀 👀 👀 ",
   },
 ]
 
@@ -55,18 +72,21 @@ const skills = [
   'HTML',
   'CSS',
   'JavaScript',
-  'Lightroom',
+  'Python',
   'React',
+  'Lightroom',
+  'Photoshop',
   'French',
   'Photography',
-  'Public Speaking',
-  'Being Spontaneous',
+  'Public speaking',
+  'Flying drones',
 
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'skylerchan2021@gmail.com',
+  email: 'skyler@skylerchan.ca',
 }
+
 
 export { header, about, projects, skills, contact }

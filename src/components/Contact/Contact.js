@@ -10,6 +10,11 @@ const Contact = () => {
       <a href={`mailto:${contact.email}`}>
         <span type='button' className='btn btn--outline'>
           Email me
+        </span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </a>
+      <a href="https://calendly.com/skylerchan/30-minute-meeting">
+        <span type='button' className='btn btn--outline'>
+           let's chat!
         </span>
       </a>
     </section>
