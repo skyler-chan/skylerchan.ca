@@ -11,7 +11,7 @@ const about = {
   role: 'work in progress',
   strings: ["test.", "test2."],
   description:
-    "Skyler Chan is an 18-year old gap year student, currently living in Hong Kong. He's passionate about space exploration, Web 3.0, exponential technologies, photography, and philosophy.",
+    "Skyler is an 18-year old gap year student from Vancouver, currently living in Hong Kong. He's passionate about space exploration, Web 3.0, exponential technologies, photography, and philosophy.",
   // resume: 'https://example.com',
   social: {
     linkedin: 'https://www.linkedin.com/in/skylerchan03/',
