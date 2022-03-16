@@ -1,5 +1,3 @@
-# skylerchan.ca
-Github Pages
 
 **How to deploy**
 
