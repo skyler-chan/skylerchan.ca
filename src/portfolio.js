@@ -43,7 +43,7 @@ const projects = [
     description:
       'Creator and Core Team, decentralizing access to space exploration',
     stack: ['Notion', 'React'],
-    livePreview: 'https://transparent-otter-86f.notion.site/MartianDAO-2264ef9ef23247e5a35d9f6d27428b7d?utm_source=notion',
+    livePreview: 'bit.ly/3rmmjn5',
   },
   {
     name: 'Monument',
